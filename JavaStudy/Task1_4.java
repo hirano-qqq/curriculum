@@ -52,7 +52,7 @@ public class Task1_4 {
         // ④ 「USER_PASSWORD」の値のみ等しい場合。
        //定数を使用して「 名前に誤りがあります。 」と出力してください。
        }else if (pass.equals(CONST_MSG_ERROR_NAME)) {
-    System.out.println(CONST_MSG_ERROR_PASS); 
+    System.out.println(CONST_MSG_ERROR_NAME); 
 
 
         // ⑤ 「USER_RNAME」も「USER_PASSWORD」の値も間違っていた場合。 
