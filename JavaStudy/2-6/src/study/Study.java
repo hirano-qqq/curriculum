@@ -31,7 +31,7 @@ public class Study {
 
         // 問② 「(Calendar.MONTH) + 数値」の処理は、想定していない値となる可能性があります。
         // その理由をコメントへ記述してください。
-        // [「(Calendar.MONTH) + 数値」の処理は年の加算減算を考慮しないので、結果がが0以下や12以上になる場合があるため。]
+        // [「(Calendar.MONTH) + 数値」の処理は年の加算減算を考慮しないので、結果が0以下や12以上になる場合があるため。]
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
