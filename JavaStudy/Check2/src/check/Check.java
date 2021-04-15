@@ -5,15 +5,12 @@ import constants.Constants;
 public class Check {
 	public static void main(String[] args) {
 
-		printName(Check.firstName, Check.lastName);
+		printName(firstName, lastName);
 
-		Pet p = new Pet();
-		RobotPet rp = new RobotPet();
-
-		p = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
+		Pet p = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
 		p.introduce();
 
-		rp = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
+		RobotPet rp = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
 		rp.introduce();
 
 	}

@@ -2,9 +2,6 @@ package check;
 
 public class Pet {
 
-	public Pet() {
-	}
-
 	private String name;
 	private String masterName;
 
@@ -28,9 +25,6 @@ public class Pet {
 }
 
 class RobotPet extends Pet {
-
-	public RobotPet() {
-	}
 
 	public RobotPet(String name, String masterName) {
 		super(name, masterName);
