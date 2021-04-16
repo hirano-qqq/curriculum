@@ -1,0 +1,70 @@
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 350px;
+	margin: 0 auto;
+}
+
+.left1 {
+	float: left;
+	width: 150px;
+	height: 100px;
+	background: #FFFF66;
+}
+
+.right1 {
+	float: left;
+	width: 200px;
+	height: 100px;
+	background: #666666;	
+}
+.left2{
+	float: left;
+	width: 150px;
+	height: 150px;
+	background: #ff3333;
+}
+
+.right2-1{
+	float: left;
+	width: 100px;
+	height: 150px;
+	background: #3366ff;	
+}
+
+.right2-2 {
+	float: left;
+	width: 100px;
+	height: 150px;
+	background: #669933;	
+}
+.left3 {
+	float: left;
+	width: 150px;
+	height: 100px;
+	background: #ff9966;
+}
+
+.right3-1 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #ffffcc;	
+}
+.right3-2 {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: #330066;	
+}
+
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
