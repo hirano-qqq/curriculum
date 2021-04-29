@@ -24,17 +24,16 @@ WHERE quantity > (SELECT AVG(quantity) FROM stock_table  WHERE store_code = 'EA0
  
  
 -- 6. 商品テーブルに「商品コード='M001'、商品名='マフラー'、単価=4500円、更新日付=本日日付」のデータを追加しなさい。※実行後のSELECT結果も貼付すること。
--- INSERT INTO "goods_table" 
+-- INSERT INTO goods_table 
 (goods_code, goods_name, price,update_day)
 VALUES
 ('M001', 'マフラー',4500 , '2021-04-25')
  
  
 -- 7. 在庫テーブルの商品コード='S987'、かつ、店舗コード='EA01'に対して、「在庫数=10、更新日付=本日日付」で更新しなさい。※実行後のSELECT結果も貼付すること。
--- INSERT INTO "stock_table" 
-(goods_code, store_code, quantity,update_day)
-VALUES
-('S987', 'EA01',10 , '2021-04-25')
+-- UPDATE stock_table 
+SET quantity = 10,update_day = '2021-04-25'
+WHERE goods_code ='S987' AND store_code = 'EA01'
  
  
 -- 8. 7で更新した商品を削除しなさい。※実行後のSELECT結果も貼付すること。
